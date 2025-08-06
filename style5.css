@@ -1,0 +1,17 @@
+.loader {
+    height:200px;
+    width:200px;
+    border-radius: 50%; 
+    border: 20px solid purple;
+    border-left:20px solid fuchsia;
+    animation: spinn 2s steps(5) 1s infinite normal;
+}
+
+@keyframes spinn {
+       from {
+        transform: rotate(0deg);
+       }
+       to{
+        transform: rotate(360deg);
+       }
+}
